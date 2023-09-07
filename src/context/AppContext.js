@@ -98,3 +98,16 @@ state.CartValue = totalExpenses;
         </AppContext.Provider>
     );
 };
+
+
+// In AppContext.js you will be creating reducer, which is used to update the state, 
+// based on the action. Then you will set the initial state for the Shopping Cart. You 
+// will be creating the Provider component which wraps the components you want to give 
+// access to the state.
+
+// In AppContext.js you are setting the initial state of Expenses and Location. 
+// You can see how the items, their respective unit price are all added to Expenses. 
+// Here, you are adding an initial expenses, creating a Provider component,
+// setting up the useReducer hook which will hold your state, and allow you to update the state via dispatch.
+
+// Adding a new case to the switch statement called “ADD_QUANTITY”, “RED_QUANTITY”, “DELETE_ITEM”, “CHG_LOCATION”.
