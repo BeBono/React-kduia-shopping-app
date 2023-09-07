@@ -38,3 +38,6 @@ const App = () => {
     );
 };
 export default App;
+
+// Here, you are importing different components,adding a bootstrap container that helps you center your
+//  App on the page. Importing your AppProvider and nested your components in the AppProvider element.
